@@ -1,0 +1,20 @@
+.company-description {
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff, #f1f1f1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-text {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+}
+
+.company-text::first-line {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #44bdb7;
+}
